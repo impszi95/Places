@@ -1,0 +1,91 @@
+{
+	"name" : "Vapiano",
+	"address" : {
+		"country" : "Hungary",
+		"state" : "Pest",
+		"city" : "Budapest",
+		"street" : "Vizimolnár",
+		"streetNum" : 14
+	},
+	"openingHours" : [
+		{
+			"day" : "Monday",
+			 "intervals": [
+                    {
+                        "from": "00:00",
+                        "to": "00:00"
+                    }
+                    ]
+		},
+		{
+			"day" : "Tuesday",
+		 "intervals": [
+                    {
+                        "from": "11:30",
+                        "to": "15:00"
+                    },
+                    {
+                        "from": "18:30",
+                        "to": "00:00"
+                    }
+                    ]
+		},
+		{
+			"day" : "Wednesday",
+			 "intervals": [
+                    {
+                        "from": "11:30",
+                        "to": "15:00"
+                    },
+                    {
+                        "from": "18:30",
+                        "to": "00:00"
+                    }
+                    ]
+		},
+		{
+			"day" : "Thursday",
+		 "intervals": [
+                    {
+                        "from": "11:30",
+                        "to": "15:00"
+                    },
+                    {
+                        "from": "18:30",
+                        "to": "00:00"
+                    }
+                    ]
+		},
+		{
+			"day" : "Friday",
+		 "intervals": [
+                    {
+                        "from": "11:30",
+                        "to": "15:00"
+                    },
+                    {
+                        "from": "18:30",
+                        "to": "00:00"
+                    }
+                    ]
+		},
+		{
+			"day" : "Saturday",
+			 "intervals": [
+                    {
+                        "from": "18:00",
+                        "to": "00:00"
+                    }
+                    ]
+		},
+		{
+			"day" : "Sunday",
+			 "intervals": [
+                    {
+                        "from": "11:30",
+                        "to": "15:00"
+                    }
+                    ]
+		}
+		]
+}
