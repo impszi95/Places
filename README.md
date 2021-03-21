@@ -17,7 +17,7 @@
 REST: <br>
 **Create a new place**<br>
 * POST localhost:8081/api/places/create <br><br>
-Body obj: {name, address, openingHours[]}<br>
+Body obj: {name, address, openingHours[]}<br><br>
 address: country,state,city,street,streetNum<br>
 openingHours[]:day, intervals[]<br>
 intervals[]: from, to<br>
