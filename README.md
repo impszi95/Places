@@ -15,17 +15,15 @@
 
 ## Use
 REST: <br>
-**Place** <br>
 **Create a new place**<br>
-* POST localhost:8081/api/places/create <br>
-Body obj:
-{name, address, openingHours[]}
+* POST localhost:8081/api/places/create <br><br>
+Body obj:<br>
+{name, address, openingHours[]}<br>
+address: country,state,city,street,streetNum<br>
+openingHours[]:day, intervals[]<br>
+intervals[]: from, to<br>
 
-address: country,state,city,street,streetNum
-openingHours[]:day, intervals[]
-intervals[]: from, to
-
-Sample query in CreatePlace.txt
+**Sample query in CreatePlace.txt**<br>
 
 **Get all places**<br>
 * GET localhost:8081/api/places <br><br>
